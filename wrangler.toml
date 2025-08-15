@@ -1,0 +1,9 @@
+name = "ravit-nuxt"
+main = ".output/server/index.mjs"
+compatibility_date = "2025-07-26"
+
+[build]
+command = "npm run build"
+
+[site]
+bucket = ".output/public"
